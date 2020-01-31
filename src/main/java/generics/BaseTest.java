@@ -24,8 +24,8 @@ public abstract class BaseTest implements AutoConstant
     	driver.manage().window().maximize();
     	driver.manage().deleteAllCookies();
     	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-    	driver.get("http://192.168.38.128/dolibarr-3.3.1/htdocs/index.php");
-    	//driver.get("https://demo.actitime.com/login.do");
+    	driver.get("https://www.saucedemo.com/index.html");
+    	
     }
 	@AfterMethod
 	public void postcondition(ITestResult res)
